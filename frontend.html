@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+
+    <marquee behavior="scroll" direction="left" scrollamount="10"><b>Our best offer Ever!! Summer Special-Get 3 Courses
+            at 22499/-only, Giving Certificate also <a href="#">Read more</a></b></marquee>
+
+    <script src="https://kit.fontawesome.com/4f34309f57.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="frontpage1.html">
+
+    <script src="https://kit.fontawesome.com/4f34309f57.js" crossorigin="anonymous"></script>
+
+    <style>
+        marquee {
+            background-color: rgb(253, 168, 11);
+            height: 20px;
+            padding: 05px;
+        }
+
+        #abc {
+            position: absolute;
+            left: -185px;
+            top: 60px;
+        }
+
+        .head {
+            background-color: navy;
+            color: white;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .head p:hover {
+            color: red;
+        }
+
+        .head .meadia {
+            margin: 15px;
+            display: grid;
+            grid-template-columns: 15% 15% 15% 15%;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+
+        .meadia i {
+            color: white;
+        }
+
+        .meadia :hover {
+            color: rgb(37, 243, 174);
+            ;
+        }
+
+        .nav {
+            background-color: rgb(181, 235, 232);
+            text-align: left;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            height: 40px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .rj {
+            color: rgb(16, 216, 16);
+            font-size: 30px;
+            margin-left: 10px;
+
+        }
+
+        .logo {
+            color: rgb(16, 216, 16);
+            font-size: 30px;
+
+        }
+
+        .nav ul {
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            position: absolute;
+            text-align: center;
+            margin-inline-start: 350px;
+
+        }
+
+        .nav ul li a {
+            text-decoration: none;
+            margin: 5px;
+            letter-spacing: 1px;
+            color: black;
+            padding: 15px;
+            position: relative;
+            display: block;
+        }
+
+        .nav ul li a:hover {
+            color: red;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .nav ul li ul {
+            float: none;
+            display: none;
+        }
+
+        .nav ul li ul li a {
+            float: none;
+            display: list-item;
+            background-color: rgb(181, 235, 232);
+            width: 120px;
+            position: relative;
+        }
+
+        .nav ul li ul li a:hover {
+            background-color: white;
+        }
+
+        .nav ul li:hover ul {
+            display: block;
+        }
+
+        .nav .en {
+            background-color: rgb(126, 232, 126);
+            margin: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .nav .en:hover {
+            background-color: white;
+        }
+
+
+
+
+        .nav .enquery {
+            display: none;
+        }
+
+        .nav :hover .enquery {
+            display: block;
+        }
+
+        .enquiry {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .a {
+            background-color: white;
+            border-radius: 03px;
+            box-sizing: border-box;
+            box-shadow: rgb(207, 220, 229) 3px 3px 3px 3px;
+            position: relative;
+            top: 250px;
+            width: 68%;
+            height: 480px;
+            left: 170px;
+        }
+
+        .main {
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .main1 {
+            text-align: center;
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: rgb(11, 154, 243);
+            margin: 25px;
+            border-radius: 05px;
+        }
+
+        .data input {
+            width: 280px;
+            padding: 12px;
+            margin-left: 25px;
+            border: none;
+            box-sizing: border-box;
+            box-shadow: rgb(236, 226, 226) 2px 2px 2px 2px;
+
+        }
+
+        .data select {
+            width: 280px;
+            padding: 12px;
+            border-radius: 5px;
+            margin-left: 25px;
+            border: none;
+            box-sizing: border-box;
+            box-shadow: rgb(236, 226, 226) 2px 2px 2px 2px;
+            position: relative;
+            top: -3px;
+        }
+
+        .data button {
+            background-color: rgb(11, 154, 243);
+            width: 200px;
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            margin-left: 40px;
+            position: relative;
+            right: -10%;
+            top: 32px;
+        }
+
+        .data button:hover {
+            background-color: white;
+        }
+
+
+
+
+        .frontend h2 {
+            text-align: center;
+            color: orange;
+        }
+
+        .frontend li {
+            position: relative;
+            left: 560px;
+            text-align: center;
+            float: left;
+            color: white;
+            background-color: orange;
+            margin: 08px;
+            padding: 10px;
+            list-style: none;
+            border-radius: 5px;
+        }
+
+        .frontend .java {
+            background-color: navy;
+            padding: 07px;
+        }
+
+        .content h3 {
+            font-size: 20px;
+            text-align: center;
+            color: orange;
+        }
+
+        .content ul {
+            font-size: 20px;
+            box-sizing: border-box;
+            box-shadow: rgb(236, 226, 226) 2px 2px 2px 2px;
+            margin: 30px;
+            padding: 30px;
+        }
+
+        .content1 h3 {
+            background-color: orange;
+            padding: 12px;
+            margin: 30px;
+            box-sizing: border-box;
+            box-shadow: rgb(94, 92, 92) 2px 2px 2px 2px;
+        }
+
+        .content1 i {
+            color: white;
+            float: right;
+        }
+
+        .content1 h3:hover {
+            background-color: whitesmoke;
+        }
+
+        .content1 ul {
+            overflow: scroll;
+            width: 94%;
+            height: 100px;
+            position: relative;
+            left: 15px;
+            font-size: 20px;
+            display: none;
+        }
+
+        .heading::after{
+            content: "-";
+            float: right;
+            color: whitesmoke;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="head">
+        <p>Email: rjtechnolgy@gmail.com</p>
+        <p>Contact: +98445675212</p>
+        <div class="meadia">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.linkedin.com/login/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+
+
+    <div class="nav">
+        <div class="rj"><i class="fa-solid fa-graduation-cap"></i>
+            <div class="logo">Rj Technology</div>
+        </div>
+        <ul>
+            <li><a href="frontpage1.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li>
+                <a href="#">COURSES<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul id="abc">
+                    <li><a href="frontend.html">FRONT END</a></li>
+                    <li><a href="#">BACK END</a></li>
+                    <li><a href="#">OTHERS</a></li>
+                </ul>
+            </li>
+            <li><a href="cart.html">ONLINE TRAINING</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+
+
+
+        <!-- enquery form -->
+        <div class="diloguebox">
+            <botton class="en"><b>ENQUERY</b></botton>
+
+            <div class="enquery">
+                <div class="a">
+                    <div class="main">
+                        <h3>Request for<br>Class Room & Online Training Quotation</h3>
+                    </div>
+
+                    <div class="main1">
+                        <h3><i class="fa fa-home" aria-hidden="true"></i>Classroom</h3>
+                        <h3><i class="fa fa-laptop" aria-hidden="true"></i>Online</h3>
+                    </div>
+
+                    <div class="data">
+                        <input type="text" placeholder="Enter your Name">
+                        <br><br>
+                        <input type="text" placeholder="Enter your Email">
+                        <br><br>
+                        <input type="text" placeholder="Enter your Mobile No">
+                        <br><br>
+                        <select>
+                            <option>Select Course</option>
+                            <option>HTML5</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                            <option>React JS</option>
+                        </select>
+                        <button>Submit Query</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="frontend">
+        <h2>Front End</h2>
+        <li><i class="fa fa-user-plus" aria-hidden="true"></i>Enroll</li>
+        <li class="java">JavaScript</li>
+        <li class="java">React JS</li>
+        <li><i class="fa fa-calendar" aria-hidden="true"></i>View Batches</li>
+        <br>
+    </div>
+
+    <div class="content">
+        <ul>
+            <h3>Who this course is for?</h3>
+            <li>Manual testers, Non-programming aware testers intrested in learning Automation.</li>
+            <li>Any Software engineer who are intrested in Mobile Technologies.</li>
+            <li>Freshers/ Undergraduates/ Graduates/ Software Testers.</li>
+        </ul>
+
+        <ul>
+            <h3>Why take this course?</h3>
+            <li>Working professionals who wants to upgrade their skills form manual testing.</li>
+            <li>One who is willing to move into automation testing projects.</li>
+            <li>One who is working in automation and want to learn advanace concepts for implementing in their projects.
+            </li>
+        </ul>
+
+        <ul>
+            <h3>What you will learn?</h3>
+            <li>Manual testers, No-programming aware testers intrested in learning Automation.</li>
+            <li>You will be able to handle real time challenges using Selenium.</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS.</li>
+            <li>You will improve coding skills in writting best optimised code for automating test cases.</li>
+            <li>In-depth understanding of real time selenium CHALLENGES.</li>
+            <li>By the end of this course, You will be Mastered on Selenium Web driver with strong Core JAVA basics.
+            </li>
+            <li>******You need NOT have java coding experience to start this course. Even non-programming candidates can
+                follow this course comfortably.</li>
+            <li>All installation setup including java knowledge is taken care as part of course.</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreds of Recruiters our
+                network.******</li>
+        </ul>
+    </div>
+
+    <div class="content1">
+        <h3 class="heading">HTML</h3>
+        <ul class="ul">
+            <li>Manual testers, No-programming aware testers intrested in learning Automation.</li>
+            <li>You will be able to handle real time challenges using Selenium.</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS.</li>
+            <li>You will improve coding skills in writting best optimised code for automating test cases.</li>
+            <li>In-depth understanding of real time selenium CHALLENGES.</li>
+            <li>By the end of this course, You will be Mastered on Selenium Web driver with strong Core JAVA basics.
+            </li>
+            <li>******You need NOT have java coding experience to start this course. Even non-programming candidates can
+                follow this course comfortably.</li>
+            <li>All installation setup including java knowledge is taken care as part of course.</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreds of Recruiters our
+                network.******</li>
+        </ul>
+
+        <h3 class="heading">CSS</h3>
+        <ul>
+            <li>Manual testers, No-programming aware testers intrested in learning Automation.</li>
+            <li>You will be able to handle real time challenges using Selenium.</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS.</li>
+            <li>You will improve coding skills in writting best optimised code for automating test cases.</li>
+            <li>In-depth understanding of real time selenium CHALLENGES.</li>
+            <li>By the end of this course, You will be Mastered on Selenium Web driver with strong Core JAVA basics.
+            </li>
+            <li>******You need NOT have java coding experience to start this course. Even non-programming candidates can
+                follow this course comfortably.</li>
+            <li>All installation setup including java knowledge is taken care as part of course.</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreds of Recruiters our
+                network.******</li>
+        </ul>
+
+        <h3 class="heading">javaScript</h3>
+        <ul>
+            <li>Manual testers, No-programming aware testers intrested in learning Automation.</li>
+            <li>You will be able to handle real time challenges using Selenium.</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS.</li>
+            <li>You will improve coding skills in writting best optimised code for automating test cases.</li>
+            <li>In-depth understanding of real time selenium CHALLENGES.</li>
+            <li>By the end of this course, You will be Mastered on Selenium Web driver with strong Core JAVA basics.
+            </li>
+            <li>******You need NOT have java coding experience to start this course. Even non-programming candidates can
+                follow this course comfortably.</li>
+            <li>All installation setup including java knowledge is taken care as part of course.</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreds of Recruiters our
+                network.******</li>
+        </ul>
+
+        <h3 class="heading">React JS</h3>
+        <ul>
+            <li>Manual testers, No-programming aware testers intrested in learning Automation.</li>
+            <li>You will be able to handle real time challenges using Selenium.</li>
+            <li>Complete knowledge on Test NG, MAVEN, JENKINS.</li>
+            <li>You will improve coding skills in writting best optimised code for automating test cases.</li>
+            <li>In-depth understanding of real time selenium CHALLENGES.</li>
+            <li>By the end of this course, You will be Mastered on Selenium Web driver with strong Core JAVA basics.
+            </li>
+            <li>******You need NOT have java coding experience to start this course. Even non-programming candidates can
+                follow this course comfortably.</li>
+            <li>All installation setup including java knowledge is taken care as part of course.</li>
+            <li>100% JOB ASSISTANCE after completion of course to make your profile reach to Hundreds of Recruiters our
+                network.******</li>
+        </ul>
+    </div>
+
+
+<script>
+        const x=document.getElementsByClassName("heading")
+        var i;
+        for (i = 0; i<x.length; i++) {
+            x[i].addEventListener("click", function(){
+                var y = this.nextElementSibling
+                if (y.style.display === "block") {
+                    y.style.display = "none"
+                }
+                else {
+                    y.style.display = "block"
+                }
+            })
+        }
+    </script>
+
+</body>
+
+</html>
